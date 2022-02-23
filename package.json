@@ -1,0 +1,22 @@
+{
+    "name": "!!technoscape",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.0.23"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.4.0",
+        "jquery-validation": "^1.19.3"
+    }
+}

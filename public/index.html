@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <form action="" id="form">
+            <div>
+                <label for="Nama" class="">Nama</label>
+                <input type="text" id="Nama" class="focus:outline-none" placeholder="Nama" name="Nama" required/>
+            </div>
+
+            <div>
+                <label for="Place">Tempat lahir</label>
+                <input type="text" id="Place" placeholder="Place" name="Place" required />
+            </div>
+
+            <div>
+                <label for="Dob">tanggal lahir</label>
+                <input type="date" id="Dob" placeholder="Dob" name="Dob" required />
+            </div>
+
+            <div>
+                <label for="email">famale</label>
+                <input type="radio" name="gander" required id="famale" />
+                <label for="email">male</label>
+                <input type="radio" name="gander" required id="male" />
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" required placeholder="Email" name="email"  />
+            </div>
+
+            <div>
+                <label for="Password">Password</label>
+                <input type="password" id="Password" required placeholder="Password" name="Password" />
+            </div>
+
+            <div>
+                <label for="confirmPassword">confirm Password</label>
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="confirm Password"
+                    name="confirmPassword"
+                    required
+                />
+            </div>
+
+            <div>
+                <label for="NoWA">No WA</label>
+                <input type="text" id="NoWA" placeholder="No WA" name="NoWA"  />
+            </div>
+
+            <div>
+                <label for="IDLine">ID Line</label>
+                <input type="text" id="IDLine" required placeholder="ID Line" name="IDLine"/>
+            </div>
+
+            <div>
+                <label for="CV">CV</label>
+                <input type="file" accept="image/jpeg, image/jpg,image/png,application/pdf" id="CV" required placeholder="CV" name="CV"/>
+            </div>
+
+            <butt>
+                <button type="submit" id="submit" placeholder="ID Line">Submit</button>
+            </div>
+        </form>
+
+        <script src="./js/jquery-3.6.0.min.js"></script>
+        <script src="./js/jquery.validate.min.js"></script>
+        <script src="./js/form.js"></script>
+    </body>
+</html>
